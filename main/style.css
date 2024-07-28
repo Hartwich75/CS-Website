@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #232728;
+    
+    font-family: "consolas", sans-serif;
+}
+
+table{
+    background-color: #232728;
+    box-shadow: 3pc 3px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+    
+table tr{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+table th{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+table a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+    
+table a:hover{
+    background-color: rgb(129, 128, 128);
+}
+
+hr{
+    height: 3px;
+    background-color: #313638;
+    border: none;
+}
+
+p{
+    color: #FFFFFF;
+}
+
+h1{
+    color: #FFFFFF;
+}
+
+nav{
+background-color: #232728;
+box-shadow: 3pc 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+nav a:hover{
+    background-color: rgb(129, 128, 128);
+}
+
+.container{
+    width: 100%;
+}
+
+.searchBar{
+    width: 100%;
+    max-width: 700px;
+    background: #313638;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.searchBar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: rgb(129, 128, 128);
+}
+
+::placeholder{
+    color: rgb(129, 128, 128);
+}
+
+.searchBar button img{
+    width: 25px;
+}
+
+.searchBar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgb(129, 128, 128);
+    cursor: pointer;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #232728;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.sidebar1{
+    position: fixed;
+    top: 100;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #232728;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar1 li{
+    width: 100%;
+}
+
+.sidebar1 a{
+    width: 100%;
+}
+
+.menuButton{
+    display: none;
+}
+
+.menuButton{
+    display: block;
+}
+
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display:  none;
+    }
+}
+
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+
+.steamLogin{
+    background-color: green;
+}

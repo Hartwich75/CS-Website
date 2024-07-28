@@ -1,0 +1,62 @@
+.weaponimage{
+    width: 300px;
+    height: 325px;
+    border: 3px solid;
+    border-color: #313638;
+    border-radius: 10px;
+    background-color: #313638;
+    font-size: 40px;
+    text-align: center;
+}
+
+.weaponimagehr{
+    height: 3px;
+    background-color: rgb(129, 128, 128);
+    border: none;
+}
+
+.weaponimage:hover{
+    border-color: rgb(129, 128, 128);
+}
+
+.groupImageDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.defaultWeaponImages{
+    height: 90vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.skinImagesAk{
+    height: 90vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.patternSkinImages{
+    height: 90vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+}
