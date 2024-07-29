@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
+    <title>csfornoobs.com/skins/</title>
 
-    <title>csfornoobs.com/patterns/</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,7 +10,6 @@
     <link rel="stylesheet" href="/main/weaponImageStyle.css">
 
 </head>
-
 <body>
     <header>
         <table>
@@ -20,35 +17,33 @@
                 <th>
                     <img id="2" src="/images/csfornoobslogo.png" height="100" alt="This is a picture of the cs for noobs logo" title="cs for noobs logo">
                 </th>
-
                 <th>
-                    <h1>CS Skins and Patterns</h1>
+                    <h1>CS2 Weapons And Skins</h1>
                 </th>
             </tr>
         </table>
     </header>
-    
-<hr>
+    <hr>
+    <br>
+    <div class="groupImageDisplay">
+        <div class="defaultWeaponImages" onclick="hideDefaultWeaponImages()">
+            <div class="weaponimage" id="Ak">
+                <a onclick="showSkinImages('Ak')">
+                    <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png" width="270px" height="200px" alt="This is a picture of the AK-47" title="AK-47">
+                </a>
+                <hr class="weaponimagehr">
+                <br>
+                <p>AK-47</p>
+            </div>
 
-<br>
-
-<div class="groupImageDisplay">
-<div class ="defaultWeaponImages" onclick=hideDefaultWeaponImages()>
-    <div class="weaponimage" id="ak">
-        <a onclick=showPatternAk47Images()>
-        <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png" width="270px" height="200px" alt="This is a picture of the AK-47" title="AK-47">
-        </a>
-        <hr class="weaponimagehr">
-        <br>
-        <p>AK-47</p>
-    </div>
-
-    <div class="weaponimage" id="aug">
-            <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_aug_png.png" width="270px" height="200px" alt="This is a picture of the AUG" title="AUG">
-            <hr class="weaponimagehr">
-            <br>
-            <p>AUG</p>
-    </div>
+            <div class="weaponimage" id="Aug">
+                <a onclick="showSkinImages('Aug')">
+                    <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_aug_png.png" width="270px" height="200px" alt="This is a picture of the AUG" title="AUG">
+                </a>
+                <hr class="weaponimagehr">
+                <br>
+                <p>AUG</p>
+            </div>
 
     <div class="weaponimage" id="awp">
         <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png" width="270px" height="200px" alt="This is a picture of the AWP" title="AWP">
@@ -291,30 +286,44 @@
 </div>
 </div>
 
-<div class ="skinImagesAk">
-    <div class="weaponimage" id="Ak">
-        <a showSkinImages()>
-        <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47" title="AK-47">
-        </a>
-        <hr class="weaponimagehr">
-        <br>
-        <p>AK-47</p>
+    <div class="skinImagesAk">
+        <div class="weaponimage" id="akCaseHardened">
+            <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Case Hardened" title="AK-47 Case Hardened">
+            <hr class="weaponimagehr">
+            <br>
+            <p>AK-47 Case Hardened</p>
+        </div>
+
+        <div class="weaponimage" id="akHeadShot">
+            <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Head Shot" title="AK-47 Head Shot">
+            <hr class="weaponimagehr">
+            <br>
+            <p>AK-47 Head Shot</p>
+        </div>
+
+    </div>
+    <div class="skinImagesAug">
+        <div class="weaponimage" id="augChameleon">
+            <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_cu_aug_chameleonaire_light_png.png" width="270px" height="200px" alt="This is a picture of the AUG Chameleon" title="AUG Chameleon">
+            <hr class="weaponimagehr">
+            <br>
+            <p>AUG Chameleon</p>
+        </div>
     </div>
 
-</div>
-
 <script>
-    function hideDefaultWeaponImages(){
-        const defaultWeaponImages = document.querySelector(".defaultWeaponImages")
-        defaultWeaponImages.style.display = "none"
-    }
+        function hideDefaultWeaponImages(){
+            const defaultWeaponImages = document.querySelector(".defaultWeaponImages");
+            defaultWeaponImages.style.display = "none";
+        }
 
-    function showSkinImages(){
-        const skinImages = document.querySelector(".skinImages" + id)
-        skinImagess.style.display = "flex"
-    }
-
-</script>
+        function showSkinImages(id){
+            const skinImages = document.querySelector(".skinImages" + id);
+            if (skinImages) {
+                skinImages.style.display = "flex";
+            } 
+        }
+    </script>
 
 </body>
 
