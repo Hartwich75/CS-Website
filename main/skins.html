@@ -9,19 +9,56 @@
     <link rel="stylesheet" href="/main/style.css">
     <link rel="stylesheet" href="/main/weaponImageStyle.css">
 
+    <script src="weaponImageFunc.js" defer> </script>
+
 </head>
 <body>
     <header>
+
+        <!-- Table in the header of the home page -->
         <table>
             <tr>
-                <th>
+                <th> <!-- First element in the table: csfornoobs logo -->
+                    <a>
                     <img id="2" src="/images/csfornoobslogo.png" height="100" alt="This is a picture of the cs for noobs logo" title="cs for noobs logo">
+                    </a>
                 </th>
-                <th>
-                    <h1>CS2 Weapons And Skins</h1>
+
+                <th> <!-- Second element in the table: About -->
+                    <a>
+                    About
+                    </a>
                 </th>
+                
+                <!-- The searchbar in the header of the home page -->
+
+                <div class="container"> <!-- Third element in the table: Searchbar -->
+                    <th>
+                        <form action="#" method="get" class="searchBar">
+                            <input type="text" placeholder=" search for anything" name="q">
+                            <button type="submit"><img src="/images/icons/search.png"></button>
+                        </form>
+                    </th>
+                </div>
+
+                <th> <!-- Fourth element in the table: FQA -->
+                    <a>
+                    FAQ
+                    </a>
+                </th>
+
+                <th>  <!-- Fifth element in the table: Steam login -->
+                    <a>
+                    Steam Login
+                    </a>
+                </th>
+                </div>
+              
             </tr>
         </table>
+
+        <!-- End of the header on the home page -->
+
     </header>
     <hr>
     <br>
@@ -310,20 +347,6 @@
             <p>AUG Chameleon</p>
         </div>
     </div>
-
-<script>
-        function hideDefaultWeaponImages(){
-            const defaultWeaponImages = document.querySelector(".defaultWeaponImages");
-            defaultWeaponImages.style.display = "none";
-        }
-
-        function showSkinImages(id){
-            const skinImages = document.querySelector(".skinImages" + id);
-            if (skinImages) {
-                skinImages.style.display = "flex";
-            } 
-        }
-    </script>
 
 </body>
 

@@ -13,29 +13,8 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="weaponImageStyle.css">
-    <link rel="functionsheet" href="index.js">
-    
-    <script>
-    function showSidebar(){
-    const sidebar = document.querySelector(".sidebar")
-    sidebar.style.display = "flex"
-}
-
-    function hideSidebar(){
-    const sidebar = document.querySelector(".sidebar")
-    sidebar.style.display = "none"
-}
-
-    function showSidebar1(){
-    const sidebar1 = document.querySelector(".sidebar1")
-    sidebar1.style.display = "flex"
-}
-
-    function hideSidebar1(){
-    const sidebar1 = document.querySelector(".sidebar1")
-    sidebar1.style.display = "none"
-}
-    </script>
+   
+    <script src="index.js" defer> </script>
 
 </head>
 
@@ -99,28 +78,18 @@
 
     <nav> <!-- Start of the navigation bar -->
         <ul> <!-- The navigation bar itself -->
-            <li class="menuButton" onClick=showSidebar1()><a href="#">Skins</a></li>
-            <li class="hideOnMobile"><a href="">Cases</a></li>
             <li class="hideOnMobile"><a href="">Collections</a></li>
-            <li class="hideOnMobile"><a href="">Stickers</a></li>
-            <li class="hideOnMobile"><a href="">Agents</a></li>
-            <li class="hideOnMobile"><a href="">Market</a></li>
-            <li class="hideOnMobile"><a href="">Trading</a></li>
-            <li class="hideOnMobile"><a href="">3rd party sites</a></li>
+            <li class="menuButton" onClick=showSidebar1()><a href="#">Skins</a></li>
+            <li class="hideOnMobile"><a href="">Patterns</a></li>
             <li class="hideOnMobile"><a href="">Scams</a></li>
             <li class="menuButton" onClick=showSidebar()><a href="#"><img src="/images/icons/menu.png"></a></li>
         </ul>
 
         <ul class="sidebar"> <!-- The sidebar -->
             <li onclick=hideSidebar()><a href="#"><img src="/images/icons/close.png"></a></li>
-            <li class="hideOnMobile"><a href="#">Skins</a></li>
-            <li class="hideOnMobile"><a href="">Cases</a></li>
             <li class="hideOnMobile"><a href="">Collections</a></li>
-            <li class="hideOnMobile"><a href="">Stickers</a></li>
-            <li class="hideOnMobile"><a href="">Agents</a></li>
-            <li class="hideOnMobile"><a href="">Market</a></li>
-            <li class="hideOnMobile"><a href="">Trading</a></li>
-            <li class="hideOnMobile"><a href="">3rd party sites</a></li>
+            <li class="hideOnMobile"><a href="">Skins</a></li>
+            <li class="hideOnMobile"><a href="">Patterns</a></li>
             <li class="hideOnMobile"><a href="">Scams</a></li>
         </ul>
 
