@@ -1,48 +1,39 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
+    <title>csfornoobs.com/skins/</title>
 
-    <title>csfornoobs.com/skins/patterns/</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/main/style.css">
-    <link rel="stylesheet" href="/main/weaponImageStyle.css">
+    <link rel="stylesheet" href="/main/CSS/style.css">
+    <link rel="stylesheet" href="/main/CSS/weaponImageStyle.css">
+
+    <script src="/main/JavaScript/index.js" defer> </script>
+    <script src="/main/JavaScript/weaponImageFunc.js" defer> </script>
 
 </head>
-
-<template id="pageHeader">
-    <header>
-        <!-- Header content goes here -->
-    </header>
-</template>
-
 <body>
-
-<br>
+    
+    <div id="pageHeader"></div>
+    
+    <br>
 
 <div class="groupImageDisplay">
+
 <div class ="patternSkinImages" onclick=hidePatternSkinImagess()>
     <div class="weaponimage" id="awpPaw">
         <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_am_awp_pawpaw_light_png.png" width="270px" height="200px" alt="This is a picture of the AWP Paw" title="AWP Paw">
-        </a>
-        <hr class="weaponimagehr">
-        <br>
+            </a>
+                <hr class="weaponimagehr">
+            <br>
         <p>AWP Paw</p>
     </div>
 
 </div>
+
 </div>
 
-<script>
-    function hidepatternSkinImages(){
-        const patternSkinImages = document.querySelector(".patternSkinImages")
-        patternSkinImages.style.display = "none"
-    }
-
-</script>
 
 </body>
 

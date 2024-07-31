@@ -8,78 +8,17 @@
     <meta name="author" content="Hartwich">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="weaponImageStyle.css">
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="/main/CSS/style.css">
+    <link rel="stylesheet" href="/main/CSS/weaponImageStyle.css">
+
+    <script src="/main/JavaScript/index.js" defer></script>
+
 </head>
 <body>
 
 
     <div id="pageHeader"></div>
 
-    <nav> <!-- Start of the navigation bar -->
-        <ul> <!-- The navigation bar itself -->
-            <li class="hideOnMobile"><a href="">Collections</a></li>
-            <li class="hideOnMobile"><a href="skins.html">Skins</a></li>
-            <li class="hideOnMobile"><a href="patterns.html">Patterns</a></li>
-            <li class="hideOnMobile"><a href="">Phases</a></li>
-            <li class="hideOnMobile"><a href="">Floats</a></li>
-            <li class="hideOnMobile"><a href="">Scams</a></li>
-            <li class="menuButton" onClick="showSidebar()"><a href="#"><img src="/images/icons/menu.png"></a></li>
-        </ul>
-
-        <ul class="sidebar"> <!-- The sidebar -->
-            <li onclick="hideSidebar()"><a href="#"><img src="/images/icons/close.png"></a></li>
-            <li class="hideOnMobile"><a href="">Collections</a></li>
-            <li class="hideOnMobile"><a href="skins.html">Skins</a></li>
-            <li class="hideOnMobile"><a href="patterns.html">Patterns</a></li>
-            <li class="hideOnMobile"><a href="">Phases</a></li>
-            <li class="hideOnMobile"><a href="">Floats</a></li>
-            <li class="hideOnMobile"><a href="">Scams</a></li>
-        </ul>
-    </nav>
-
-    <hr>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const template = document.getElementById('header-template').content;
-            const clone = document.importNode(template, true);
-            document.getElementById('pageHeader').appendChild(clone);
-        });
-    </script>
-
-    <template id="header-template">
-        <header>
-            <!-- Header content goes here -->
-            <table>
-                <tr>
-                    <th> <!-- First element in the table: csfornoobs logo -->
-                        <a>
-                            <img id="2" src="/images/csfornoobslogo.png" height="100" alt="This is a picture of the cs for noobs logo" title="cs for noobs logo">
-                        </a>
-                    </th>
-                    <th> <!-- Second element in the table: About -->
-                        <a>About</a>
-                    </th>
-                    <th> <!-- Third element in the table: Searchbar -->
-                        <div class="container">
-                            <form action="#" method="get" class="searchBar">
-                                <input type="text" placeholder=" search for anything" name="q">
-                                <button type="submit"><img src="/images/icons/search.png"></button>
-                            </form>
-                        </div>
-                    </th>
-                    <th> <!-- Fourth element in the table: FAQ -->
-                        <a>FAQ</a>
-                    </th>
-                    <th>  <!-- Fifth element in the table: Steam login -->
-                        <a>Steam Login</a>
-                    </th>
-                </tr>
-            </table>
-        </header>
-    </template>
 
 </body>
 </html>

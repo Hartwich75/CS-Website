@@ -10,3 +10,8 @@ function showSkinImages(id){
         skinImages.style.display = "flex";
     } 
 }
+
+function hidepatternSkinImages(){
+    const patternSkinImages = document.querySelector(".patternSkinImages")
+    patternSkinImages.style.display = "none"
+}

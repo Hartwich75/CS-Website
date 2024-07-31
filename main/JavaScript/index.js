@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function() {
+    fetch('/main/HTML/pageHeader.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('pageHeader').innerHTML = data;
+        });
+});
+
 function showSidebar(){
 const sidebar = document.querySelector(".sidebar")
 sidebar.style.display = "flex"

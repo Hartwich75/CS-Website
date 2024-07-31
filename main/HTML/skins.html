@@ -6,61 +6,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/main/style.css">
-    <link rel="stylesheet" href="/main/weaponImageStyle.css">
+    <link rel="stylesheet" href="/main/CSS/style.css">
+    <link rel="stylesheet" href="/main/CSS/weaponImageStyle.css">
 
-    <script src="weaponImageFunc.js" defer> </script>
+    <script src="/main/JavaScript/index.js" defer> </script>
+    <script src="/main/JavaScript/weaponImageFunc.js" defer> </script>
 
 </head>
 <body>
     
-    <template id="pageHeader">
-        <header>
-            <!-- Header content goes here -->
-        </header>
-    </template>
+    <div id="pageHeader"></div>
 
-    <hr>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('pageHeader.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('pageHeader').innerHTML = data;
+                });
+        });
+    </script>
 
-    <!-- Navigation bar under the header on the home page -->
-
-    <nav> <!-- Start of the navigation bar -->
-        <ul> <!-- The navigation bar itself -->
-            <!--<li class="menuButton" onClick=showSidebar1()><a href="#">Skins</a></li>-->
-            <li class="hideOnMobile"><a href="">Collections</a></li>
-            <li class="hideOnMobile"><a href="skins.html">Skins</a></li>
-            <li class="hideOnMobile"><a href="patterns.html">Patterns</a></li>
-            <li class="hideOnMobile"><a href="">Phases</a></li>
-            <li class="hideOnMobile"><a href="">Floats</a></li>
-            <li class="hideOnMobile"><a href="">Scams</a></li>
-            <li class="menuButton" onClick=showSidebar()><a href="#"><img src="/images/icons/menu.png"></a></li>
-        </ul>
-
-        <ul class="sidebar"> <!-- The sidebar -->
-            <li onclick=hideSidebar()><a href="#"><img src="/images/icons/close.png"></a></li>
-            <li class="hideOnMobile"><a href="">Collections</a></li>
-            <li class="hideOnMobile"><a href="skins.html">Skins</a></li>
-            <li class="hideOnMobile"><a href="patterns.html">Patterns</a></li>
-            <li class="hideOnMobile"><a href="">Phases</a></li>
-            <li class="hideOnMobile"><a href="">Floats</a></li>
-            <li class="hideOnMobile"><a href="">Scams</a></li>
-        </ul>
-
-        <!--
-        <ul class="sidebar1">  The sidebar for "Skins"
-            <li onclick=hideSidebar1()><a href="#"><img src="/images/icons/close.png"></a></li>
-            <li class="hideOnMobile"><a href="skins.html">All Skins</a></li>
-            <li class="hideOnMobile"><a href="patterns.html">Patterns</a></li>
-            <li class="hideOnMobile"><a href="#">Phases</a></li>
-            <li class="hideOnMobile"><a href="#">Floats</a></li>
-        </ul>
-    -->
-
-    </nav>
-
-    <hr>
-
-    <hr>
     <br>
     <div class="groupImageDisplay">
         <div class="defaultWeaponImages" onclick="hideDefaultWeaponImages()">
