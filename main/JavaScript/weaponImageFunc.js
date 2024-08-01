@@ -10,9 +10,9 @@ function hideDefaultWeaponImages(){
     defaultWeaponImages.style.display = "none";
 }
 
-function hideSkinImagesAk(){
-    const skinImagesAk = document.querySelector(".skinImagesAk");
-    skinImagesAk.style.display = "none";
+function hideDefaultWeaponImagesAk(){
+    const defaultWeaponImagesAk = document.querySelector(".defaultWeaponImagesAk");
+    defaultWeaponImagesAk.style.display = "none";
 }
 
 function hidepatternSkinImages(){

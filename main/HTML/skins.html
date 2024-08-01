@@ -17,19 +17,11 @@
     
     <div id="pageHeader"></div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            fetch('pageHeader.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('pageHeader').innerHTML = data;
-                });
-        });
-    </script>
-
     <br>
     <div class="groupImageDisplay">
+
         <div class="defaultWeaponImages" onclick="hideDefaultWeaponImages()">
+
             <div class="weaponimage" id="Ak">
                 <a onclick="showSkinImages('Ak')">
                     <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png" width="270px" height="200px" alt="This is a picture of the AK-47" title="AK-47">
@@ -287,37 +279,60 @@
     </div>
 
 </div>
+
 </div>
 
-<div class="groupImageDisplay">
-    <div class="defaultWeaponImages" onclick="hideSkinImagesAk()">
-    <div class="skinImagesAk">
-        <div class="weaponimage" id="akCaseHardened">
-            <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Case Hardened" title="AK-47 Case Hardened">
-            <hr class="weaponimagehr">
-            <br>
-            <p>AK-47 Case Hardened</p>
-        </div>
+<br>
+    <div class="groupImageDisplay">
 
-        <div class="weaponimage" id="akHeadShot">
-            <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Head Shot" title="AK-47 Head Shot">
-            <hr class="weaponimagehr">
-            <br>
-            <p>AK-47 Head Shot</p>
-        </div>
-        
+        <div class="defaultWeaponImagesAk" onclick="hideDefaultWeaponImagesAk()">
+
+    <div class="weaponimage" id="akCaseHardened">
+        <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Case Hardened" title="AK-47 Case Hardened">
+        <hr class="weaponimagehr">
+        <br>
+        <p>Case Hardened</p>
     </div>
+
+    <div class="weaponimage" id="akHeadShot">
+        <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Head Shot" title="AK-47 Head Shot">
+        <hr class="weaponimagehr">
+        <br>
+        <p>Head Shot</p>
+    </div>
+
+    <div class="weaponimage" id="akNightwish">
+        <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_nightwish_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Nightwish" title="AK-47 Nightwish">
+        <hr class="weaponimagehr">
+        <br>
+        <p>Nightwish</p>
+    </div>
+
+    <div class="weaponimage" id="akLeetMuseo">
+        <img src="" width="270px" height="200px" alt="This is a picture of the AK-47 Leet Museo" title="AK-47 Leet Museo">
+        <hr class="weaponimagehr">
+        <br>
+        <p>Leet Museo</p>
+    </div>
+
+    <div class="weaponimage" id="akLegionOfAnubis">
+        <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_anubis_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Legion of Anubis" title="AK-47 Legion of Anubis">
+        <hr class="weaponimagehr">
+        <br>
+        <p>Legion Of Anubis</p>
+    </div>
+
+    <div class="weaponimage" id="akAsiimov">
+        <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png" width="270px" height="200px" alt="This is a picture of the AK-47 Asiimov" title="AK-47 Asiimov">
+        <hr class="weaponimagehr">
+        <br>
+        <p>Asiimov</p>
+    </div>
+
 </div>
 
-    </div>
-    <div class="skinImagesAug">
-        <div class="weaponimage" id="augChameleon">
-            <img src="https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_cu_aug_chameleonaire_light_png.png" width="270px" height="200px" alt="This is a picture of the AUG Chameleon" title="AUG Chameleon">
-            <hr class="weaponimagehr">
-            <br>
-            <p>AUG Chameleon</p>
-        </div>
-    </div>
+</div>
+
 
 </body>
 
