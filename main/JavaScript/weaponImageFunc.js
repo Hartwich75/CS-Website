@@ -1,7 +1,7 @@
-function showSkinImages(id){
-    const skinImages = document.querySelector(".skinImages" + id);
-    if (skinImages) {
-        skinImages.style.display = "flex";
+function showDefaultWeaponImages(id){
+    const defaultWeaponImages = document.querySelector(".defaultWeaponImages" + id);
+    if (defaultWeaponImages) {
+        defaultWeaponImages.style.display = "flex";
     } 
 }
 
