@@ -40,7 +40,7 @@
 .skinImagesAk{
     height: 90vh;
     width: 60%;
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
