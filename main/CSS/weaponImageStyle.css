@@ -7,6 +7,15 @@
     background-color: #313638;
     font-size: 40px;
     text-align: center;
+    position: relative;
+    margin: 1px;
+}
+
+.weaponimage p{
+    position: relative;
+    top: -35px;
+    margin: 0;
+    padding: 0;
 }
 
 .weaponimagehr{
@@ -23,10 +32,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.defaultWeaponImages{
-    height: 90vh;
+.defaultWeaponImages, .patternSkinImages,  .defaultWeaponImagesAk{
     width: 60%;
     display: flex;
     flex-direction: row;
@@ -38,25 +47,5 @@
 }
 
 .defaultWeaponImagesAk{
-    height: 90vh;
-    width: 60%;
     display: none;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    column-gap: 1em;
-    row-gap: 1em;
-}
-
-.patternSkinImages{
-    height: 90vh;
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    column-gap: 1em;
-    row-gap: 1em;
 }
