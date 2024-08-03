@@ -5,9 +5,9 @@ const weaponData = [
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png',
         skins: [
             {
-                id: 'akCaseHardened',
-                name: 'Case Hardened',
-                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+                id: 'akInheritance',
+                name: 'Inheritance',
+                img: ''
             },
             {
                 id: 'akHeadShot',
@@ -34,6 +34,198 @@ const weaponData = [
                 name: 'Asiimov',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
             },
+            {
+                id: 'akNeonRider',
+                name: 'Neon Rider',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akTheEmpress',
+                name: 'The Empress',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akBloodsport',
+                name: 'Bloodsport',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akFuelInjector',
+                name: 'Fuel  Injector',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akAquamarineRevenge',
+                name: 'Aquamarine Revenge',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akWastelandRebel',
+                name: 'Wasteland Rebel',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akJaguar',
+                name: 'Jaguar',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akVulcan',
+                name: 'Vulcan',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akFireSerpent',
+                name: 'Fire Serpent',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akGoldArabesque',
+                name: 'Gold Arabesque',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akX-ray',
+                name: 'X-Ray',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akWildLotus',
+                name: 'Wild Lotus',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akIceCoaled',
+                name: 'Ice Coaled',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akPhantomDisruptor',
+                name: 'Phantom Disruptor',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akPointDisarray',
+                name: 'Point Disarray',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akFrontsideMisty',
+                name: 'Frontside Misty',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akCartel',
+                name: 'Cartel',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akRedline',
+                name: 'Redline',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_png.png'
+            },
+            {
+                id: 'akCaseHardened',
+                name: 'Case Hardened',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akRedLaminate',
+                name: 'Red Laminate',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akPantheraOnca',
+                name: 'Panthera Onca',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akHydroponic',
+                name: 'Hydroponic',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akJetSet',
+                name: 'Jet Set',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akSlate',
+                name: 'Slate',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akRatRod',
+                name: 'Rat Rod',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akOrbitMk01',
+                name: 'Orbit Mk01',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akBlueLaminate',
+                name: 'Blue Laminate',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akSafetyNet',
+                name: 'Safety Net',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akFirstClass',
+                name: 'First Class',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akEmeraldPinstripe',
+                name: 'Emerald Pinstripe',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akUncharted',
+                name: 'Uncharted',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akEliteBuild',
+                name: 'Elite Build',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akSteelDelta',
+                name: 'Steel Delta',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akGreenLaminate',
+                name: 'Green Laminate',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akBaroquePurple',
+                name: 'Baroque Purple',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akSafariMesh',
+                name: 'Safari Mesh',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akJungleSpray',
+                name: 'Jungle Spray',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+            {
+                id: 'akPredator',
+                name: 'Predator',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.png'
+            },
+
+
             
         ]
     },
