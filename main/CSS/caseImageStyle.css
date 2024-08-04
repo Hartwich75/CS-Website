@@ -1,4 +1,4 @@
-.weaponimage{
+.caseimage{
     width: 300px;
     height: 325px;
     border: 3px solid;
@@ -12,21 +12,20 @@
 }
 
 
-
-.weaponimage p{
+.caseiamge p{
     position: relative;
     top: -30px;
     margin: 0;
     padding: 0;
 }
 
-.weaponimagehr{
+.caseimagehr{
     height: 3px;
     background-color: rgb(129, 128, 128);
     border: none;
 }
 
-.weaponimage:hover{
+.caseimage:hover{
     border-color: rgb(129, 128, 128);
 }
 
@@ -37,7 +36,7 @@
     flex-wrap: wrap;
 }
 
-.defaultWeaponImages, .defaultWeaponImagesSkins{
+.defaultCaseImage{
     width: 60%;
     display: flex;
     flex-direction: row;
@@ -46,41 +45,4 @@
     align-items: center;
     column-gap: 1em;
     row-gap: 1em;
-}
-
-.defaultWeaponImagesSkins {
-    display: none;
-}
-
-.rarity-box {
-    position: relative;
-    background-color: white;
-    padding: 5px;
-    font-size: 15px;
-    border-top-right-radius: 10px;
-    text-align: center;
-}
-
-.rarity-box.covert {
-    background-color: red;
-}
-
-.rarity-box.classified {
-    background-color: pink;
-}
-
-.rarity-box.restricted {
-    background-color: purple;
-}
-
-.rarity-box.milspec {
-    background-color: blue;
-}
-
-.rarity-box.Industrialgrade {
-    background-color: lightblue;
-}
-
-.rarity-box.consumergrade {
-    background-color: lightgray;
 }
