@@ -97,7 +97,7 @@ const caseData = [
     {
         id: 'Gamma2',
         name: 'Gamma 2',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_14_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_gamma_2_png.png',
     },
     {
         id: 'Gamma',
@@ -147,57 +147,57 @@ const caseData = [
     {
         id: 'eSports2014Summer',
         name: 'eSports 2014 Summer',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2014_summer_png.png',
     },
     {
         id: 'OperationBreakoutWeapon',
         name: 'Operation Breakout Weapon',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png',
     },
     {
         id: 'HuntsmanWeapon',
         name: 'Huntsman Weapon',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png',
     },
     {
         id: 'OperationPhoenixWeapon',
         name: 'Operation Phoenix Weapon',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png',
     },
     {
         id: 'CSGOWeaponCase3',
         name: 'CS:GO Weapon Case 3',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_3_png.png',
     },
     {
         id: 'WinterOffensiveWeapon',
         name: 'Winter Offensive Weapon',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png',
     },
     {
         id: 'eSports2013Winter ',
         name: 'eSports 2013 Winter',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_14_png.png',
     },
     {
         id: 'CSGOWeaponCase2',
         name: 'CS:GO Weapon Case 2',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_2_png.png',
     },
     {
         id: 'OperationBravo',
         name: 'Operation Bravo',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_operation_ii_png.png',
     },
     {
         id: 'eSports2013',
         name: 'eSports 2013',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png',
     },
     {
         id: 'CSGOWeaponCase',
         name: 'CS:GO Weapon Case',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png',
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png',
     }
 
 
