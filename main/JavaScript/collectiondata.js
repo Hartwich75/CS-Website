@@ -35,253 +35,715 @@ const collectionData = [
                 rarity: 'Mil-Spec'
             },
             {
-                id: '',
-                name: '',
+                id: 'glock-18SandDune',
+                name: 'glock-18 Sand Dune',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Industrial Grade'
             },
             {
-                id: '',
-                name: '',
+                id: 'negevPalm',
+                name: 'Negev Palm',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Industrial Grade'
             },
             {
-                id: '',
-                name: '',
+                id: 'ssg08Mayan reams',
+                name: 'SSG 08 Mayan Dreams',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Industrial Grade'
             },
             {
-                id: '',
-                name: '',
+                id: 'p250Facets',
+                name: 'P250 Facets',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Industrial Grade'
             },
             {
-                id: '',
-                name: '',
+                id: 'sawed-offMosaico',
+                name: 'Sawed-Off Mosaico',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Industrial Grade'
             },
             {
-                id: '',
-                name: '',
+                id: 'xm1014Jungle',
+                name: 'XM1014 Jungle',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Consumer'
             },
             {
-                id: '',
-                name: '',
+                id: 'tec-9Tornado',
+                name: 'Tec-9 Tornado',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Consumer'
             },
             {
-                id: '',
-                name: '',
+                id: 'mp7Groundwater',
+                name: 'MP7 Groundwater',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Consumer'
             },
             {
-                id: '',
-                name: '',
+                id: 'five-sevenAnodizedGunmetal',
+                name: 'Five-Seven Anodized Gunmetal',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Consumer'
             },
             {
-                id: '',
-                name: '',
+                id: 'mp9DrySeason',
+                name: 'MP9 Dry Season',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Consumer'
             },
             {
-                id: '',
-                name: '',
+                id: 'm249JungleDDPAT',
+                name: 'M249 Jungle DDPAT',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
                 rarity: 'Consumer'
-            },
+            }
         ]
 
     },
     {
         id: 'Ancient',
         name: 'Ancient',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_ancient_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_ancient_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            }
+        ]
     },
     {
         id: 'Anubis',
         name: 'Anubis',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_anubis_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_anubis_png.png',
+        skins: [
+            {
+                id: 'm4a4EyeOfHorus',
+                name: 'M4A4 Eye Of Horus',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Convert'
+            },
+            {
+                id: 'famasWatersOfNephthys',
+                name: 'Famas Waters Of Nephthys',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Classified'
+            },
+            {
+                id: 'p250ApepsCurse',
+                name: 'P250 Apeps Curse',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Classified'
+            },
+            {
+                id: 'glock-18RamesesReach',
+                name: 'Glock-18 Rameses Reach',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'p90ScaraBRush',
+                name: 'P90 ScaraB Rush',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'novaSobeksBite',
+                name: 'Nova Sobeks Bite',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'awpBlackNile',
+                name: 'AWP Black Nile',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'ak-47SteelDelta',
+                name: 'AK-47 Steel Delta',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'tec-9MummysRot',
+                name: 'Tec-9 Mummys Rot',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'mag-7CopperCoated',
+                name: 'Mag-7 Copper Coated',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'm4a1-sMud-spec',
+                name: 'M4A1-S Mud-Spec',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'Usp-sDesertTactical',
+                name: 'Usp-s Desert Tactical',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'ssg08AzurGlyph',
+                name: 'SSG08 Azure Glyph',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'mac-10EchoingSands',
+                name: 'Mac-10 Echoing Sands',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Graade'
+            },
+            {
+                id: 'xm1014Hieroglyph',
+                name: 'XM1014 Hieroglyph',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'augSnakePit',
+                name: 'AUG Snake Pit',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'mp7Sunbaked',
+                name: 'MP7 Sunbaked',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'r8RevolverInlay',
+                name: 'R8 Revolver Inlay',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'm249Submerged',
+                name: 'M249 Submerged',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            }
+        ]
     },
     {
         id: 'Assault',
         name: 'Assault',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_assault_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_assault_png.png',
+        skins: [
+            {
+                id: 'glock-18Fade',
+                name: 'Glock-18 Fade',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'mp9Bulldozer',
+                name: 'MP9 Bulldozer',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'augHotRod',
+                name: 'AUG Hot Rod',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'negevAnodizedNavy',
+                name: 'Negev Anodized Navy',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'five-sevenCandyApple',
+                name: 'Five-Seven Candy Appple',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'ump-45Caramel',
+                name: 'Ump-45 Caramel',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'sg553Tornado',
+                name: 'SG553 Tornado',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            }
+        ]
     },
     {
         id: 'Aztec',
         name: 'Aztec',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_aztec_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_aztec_png.png',
+        skins: [
+            {
+                id: 'tec-9Ossifield',
+                name: 'Tec-9 Ossifield',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'ak-47JungleSpray',
+                name: 'AK-47 Jungle Spray',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'm4a4Jungleiger',
+                name: 'M4A4 Jungle Tiger',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'ssg08LichenDashed',
+                name: 'SSG 08 Lichen Dashed',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'novaForestLeaves',
+                name: 'Nova Forest Leaves',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'five-sevenJungle',
+                name: 'Five-Seven Jungle',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            }
+        ]
     },
     {
         id: 'Baggage',
         name: 'Baggage',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_baggage_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_baggage_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Bank',
         name: 'Bank',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_bank_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_bank_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Blacksite',
         name: 'Blacksite',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_blacksite_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_blacksite_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Cache',
         name: 'Cache',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_cache_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_cache_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Canals',
         name: 'Canals',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_canals_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_canals_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'ChopShop',
         name: 'Chop Shop',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_chopshop_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_chopshop_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Cobblestone',
         name: 'Cobblestone',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_cobblestone_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_cobblestone_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Control',
         name: 'Control',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_ct_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_ct_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Dust',
         name: 'Dust',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_dust_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_dust_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Dust2(2021)',
         name: 'Dust 2 (2021)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_dust_2_2021_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_dust_2_2021_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Dust2(old)',
         name: 'Dust 2 (old)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_dust_2_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_dust_2_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'GodsAndMonsters',
         name: 'Gods and Monsters',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_gods_and_monsters_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_gods_and_monsters_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Havoc',
         name: 'Havoc',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_t_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_t_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Inferno(2018)',
         name: 'Inferno (2018)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_inferno_2_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_inferno_2_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Inferno(old)',
         name: 'Inferno (Old)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_inferno_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_inferno_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Italy',
         name: 'Italy',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_italy_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_italy_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Lake',
         name: 'Lake',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_lake_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_lake_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Militia',
         name: 'Militia',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_militia_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_militia_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Mirage(2021)',
         name: 'Mirage (2021)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_mirage_2021_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_mirage_2021_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Mirage(old)',
         name: 'Mirage (Old)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_mirage_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_mirage_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Norse',
         name: 'Norse',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_norse_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_norse_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Nuke(2018)',
         name: 'Nuke (2018)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_nuke_2_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_nuke_2_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Nuke(old)',
         name: 'Nuke (Old)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_nuke_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_nuke_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Office',
         name: 'Office',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_office_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_office_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Overpass',
         name: 'Overpass',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_overpass_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_overpass_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'RisingSun',
         name: 'Rising Sun',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kimono_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kimono_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Safehouse',
         name: 'Safehouse',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_safehouse_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_safehouse_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'St.Marc',
         name: 'St. Marc',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_stmarc_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_stmarc_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Train(2021)',
         name: 'Train (2021)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_vertigo_2021_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_vertigo_2021_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Train(old)',
         name: 'Train (Old)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_train_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_train_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Vertigo(2021)',
         name: 'Vertigo (2021)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_vertigo_2021_png.png'
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_vertigo_2021_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Vertigo(old)',
         name: 'Vertigo (Old)',
-        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_vertigo_png.png'
-    },
+        img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_vertigo_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
+    }
  
 ];
