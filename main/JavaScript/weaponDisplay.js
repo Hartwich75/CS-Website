@@ -29,6 +29,7 @@ window.showWeaponSkins = function(weaponId) {
     const selectedWeapon = weaponData.find(weapon => weapon.id === weaponId);
     if (selectedWeapon && selectedWeapon.skins) {
         selectedWeapon.skins.forEach(skin => {
+            // const rarityClass = skin.rarity.toLowerCase().replace('', '');
             const skinElement = document.createElement("div");
             skinElement.className = "weaponimage";
             skinElement.id = skin.id;
@@ -44,6 +45,7 @@ window.showWeaponSkins = function(weaponId) {
             weaponSkinsContainer.appendChild(skinElement);
         });
         weaponSkinsContainer.style.display = 'flex';
+        
     }
 };
 });
