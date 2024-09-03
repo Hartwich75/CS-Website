@@ -36,7 +36,6 @@ window.showWeaponSkins = function(weaponId) {
             skinElement.innerHTML = `
                 <a onclick="showWeaponSkins('${skin.id}')">
                     <img src="${skin.img}" width="270px" height="200px" alt="This is a picture of the ${selectedWeapon.name} ${skin.name}" title="${selectedWeapon.name} ${skin.name}">
-                    <div class="rarity-box">${skin.rarity}</div>
                 </a>
                 <hr class="weaponimagehr">
                 <br>

@@ -335,11 +335,96 @@ const collectionData = [
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_baggage_png.png',
         skins: [
             {
-                id: '',
-                name: '',
+                id: 'ak47JetSet',
+                name: 'AK-47 Jet Set',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
-                rarity: ''
+                rarity: 'Classified'
             },
+            {
+                id: 'ak47FirstClass',
+                name: 'AK-47 First Class',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'desertEaglePilot',
+                name: 'Desert Eagle Pilot',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'XM1014RedLeather',
+                name: 'XM1014 Red Leather',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'sawed-offFirstClass',
+                name: 'Sawed-Off First Class',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'usp-sBusinessClass',
+                name: 'USP-S Business Class',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'mac-10Commuter',
+                name: 'Mac-10 Commuter',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'p2000CoachClass',
+                name: 'P2000 Coach Class',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'p90Leather',
+                name: 'P90 Leather',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'sg553Traveler',
+                name: 'SG553 Traveler',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'ssg08SandDune',
+                name: 'SSG08 Sand Dune',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'mp9GreenPlaid',
+                name: 'MP9 Green Plaid',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'mp7OlivePlaid',
+                name: 'MP7 Olive Plaid',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'g3sg1Contractor',
+                name: 'G3SG1 Contractor',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Contractor'
+            },
+            {
+                id: 'cz75-autoGreenPlaid',
+                name: 'CZ75-Auto Green Plaid',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            }
+
         ]
     },
     {
@@ -348,11 +433,101 @@ const collectionData = [
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_bank_png.png',
         skins: [
             {
-                id: '',
-                name: '',
+                id: 'p250franklin',
+                name: 'P250 Franklin',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
-                rarity: ''
+                rarity: 'Classified'
             },
+            {
+                id: 'akEmeraldPinstripe',
+                name: 'AK-47 Emerald Pinstripe',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'desertEagleMeteorite',
+                name: 'Desert Eagle Meteorite',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'galilarTuxedo',
+                name: 'Galil AR Tuxedo',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'cz75-autoTuxedo',
+                name: 'CZ75-Auto Tuxedo',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'mac-10Silver',
+                name: 'Mac-10 Silver',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'ump-45CarbonFiber',
+                name: 'UMP-45 Carbon Fiber',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'novaCagedSteel',
+                name: 'Nova Caged Steel',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'g3sg1GreenApple',
+                name: 'G3SG1 Green Apple',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'glock-18DeathRattle',
+                name: 'Glock-18 Death Rattle',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'r8RevolverBoneMask',
+                name: 'R8 Revolver Bone Mask',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'tec-9UrbanDDPAT',
+                name: 'Tec-9 Urban DDPAT',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'negevArmySheen',
+                name: 'Negev Army Sheen',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'mp7ForestDDPAT',
+                name: 'MP7 Forest DDPAT',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'sawed-offForestDDPAT',
+                name: 'Sawed-Off Forest DDPAT',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'sg553ArmySheen',
+                name: 'SG553 Army Sheen',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            }
         ]
     },
     {
@@ -361,10 +536,10 @@ const collectionData = [
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_blacksite_png.png',
         skins: [
             {
-                id: '',
-                name: '',
+                id: 'mp5-sdLabRats',
+                name: 'MP5-SD Lab Rats',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
-                rarity: ''
+                rarity: 'Restricted'
             },
         ]
     },
