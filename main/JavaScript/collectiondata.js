@@ -1253,11 +1253,101 @@ const collectionData = [
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_dust_2_png.png',
         skins: [
             {
-                id: '',
-                name: '',
+                id: 'r8RevolverAmberFade',
+                name: 'R8 Revolver Amber Fade',
                 img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
-                rarity: ''
+                rarity: 'Classified'
             },
+            {
+                id: 'p2000AmberFade',
+                name: 'P2000 Amber Fade',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Restricted'
+            },
+            {
+                id: 'pp-bizonBrass',
+                name: 'PP-Bizon Brass',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'm4a1-sVariCamo',
+                name: 'M4A1-S VariCamo',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'sg553DamascusSteel',
+                name: 'SG 553 Damascus Steel',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Mil-Spec'
+            },
+            {
+                id: 'ak-47SafariMesh',
+                name: 'AK-47 Safari Mesh',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'mac-10Palm',
+                name: 'Mac-10 Palm',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'five-sevenOrangePeel',
+                name: 'Five-Seven Orange Peel',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'sawed-offSnakeCamo',
+                name: 'Sawed-Off Snake Camo',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'tec-9VariCamo',
+                name: 'Tec-9 VariCamo',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Industrial Grade'
+            },
+            {
+                id: 'p250SandDune',
+                name: 'P250 Sand Dune',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'g3sg1DesertStorm',
+                name: 'G3SG1 Desert Storm',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'mp9SandDashed',
+                name: 'MP9 Sand Dashed',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'novaPredator',
+                name: 'Nova Predator',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'p90SandSpray',
+                name: 'P90 Sand Spray',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            },
+            {
+                id: 'scar-20SandMesh',
+                name: 'SCAR-20 Sand Mesh',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: 'Consumer Grade'
+            }
         ]
     },
     {
