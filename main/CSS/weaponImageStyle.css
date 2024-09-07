@@ -60,19 +60,19 @@
 }
 
 .rarity-box.covert{
-    background-color: red;
+    background-color: #eb4b4b;
 }
 
 .rarity-box.classified {
-    background-color: pink;
+    background-color: #d32ce6;
 }
 
 .rarity-box.restricted {
-    background-color: purple;
+    background-color: #8847ff;
 }
 
 .rarity-box.milspec {
-    background-color: blue;
+    background-color: #4b69ff;
 }
 
 .rarity-box.Industrialgrade {
@@ -80,5 +80,5 @@
 }
 
 .rarity-box.consumergrade {
-    background-color: lightgray;
+    background-color: #b0c3d9;
 }
