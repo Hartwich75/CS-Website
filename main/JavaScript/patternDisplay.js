@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const patternContainer = document.querySelector(".defaultPatternImages");
     const patternSkinsContainer = document.querySelector(".defaultPatternImagesSkins");
 
-    // Step 1: Display weapon patterns (like AWP, AK-47, etc.)
     patternData.forEach(pattern => {
         // Create weapon element for each pattern
         const patternElement = document.createElement("div");
@@ -21,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
         patternContainer.appendChild(patternElement);
     });
 
-    // Step 2: Show the skins for the selected weapon (like Boom, Fade for AWP)
     window.showPatternSkins = function(patternId) {
         // Hide the weapon patterns and clear the skin container
         patternContainer.style.display = 'none';
@@ -54,7 +52,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 
-    // Step 3: Redirect to the pattern details page for the selected skin
     window.showPatternDetails = function(skinId, patternDetailsUrl) {
         if (patternDetailsUrl) {
             window.location.href = patternDetailsUrl; // Redirect to the pattern details page
