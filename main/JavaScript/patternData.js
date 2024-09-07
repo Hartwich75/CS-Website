@@ -8,7 +8,8 @@ const patternData = [
                 id: 'ak47CaseHardened',
                 name: 'Case Hardened',
                 img: '',
-                rarity: 'Classified'
+                rarity: 'Classified',
+                patternDetailsUrl:''
             },
 
         ]
@@ -22,25 +23,29 @@ const patternData = [
                 id: 'augCondemned',
                 name: 'Condemned',
                 img: '',
-                rarity: 'Industrial Grade'
+                rarity: 'Industrial Grade',
+                patternDetailsUrl:''
             },
             {
                 id: 'augFlameJormungandr',
                 name: 'Flame Jormungandr',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'augAmberSlipstream',
                 name: 'Amber Slipstream',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'augSnakePit',
                 name: 'Snake Pit',
                 img: '',
-                rarity: 'Consumer Grade'
+                rarity: 'Consumer Grade',
+                patternDetailsUrl:''
             }
 
         ]
@@ -54,43 +59,50 @@ const patternData = [
                 id: 'awpArcheron',
                 name: 'Archeron',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'awpBoom',
                 name: 'Boom',
                 img: '',
-                rarity: 'Classified'
+                rarity: 'Classified',
+                patternDetailsUrl: '/main/HTML/patterns/awpBoom.html'
             },
             {
                 id: 'awpPaw',
                 name: 'Paw',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'awpPopPaw',
                 name: 'Pop Paw',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'awpSunInLeo',
                 name: 'Sun In Leo',
                 img: '',
-                rarity: 'Industrial Grade'
+                rarity: 'Industrial Grade',
+                patternDetailsUrl:''
             },
             {
                 id: 'awpElectricHive',
                 name: 'Electric Hive',
                 img: '',
-                rarity: 'Classified'
+                rarity: 'Classified',
+                patternDetailsUrl:''
             },
             {
                 id: 'awpFade',
                 name: 'Fade',
                 img: '',
-                rarity: 'Covert'
+                rarity: 'Covert',
+                patternDetailsUrl:''
             }
 
         ]
@@ -104,7 +116,8 @@ const patternData = [
                 id: 'cz75Polymer',
                 name: 'Polymer',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             }
 
         ]
@@ -118,19 +131,22 @@ const patternData = [
                 id: 'deserteagleBlaze',
                 name: 'Blaze',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'deserteagleEmeraldJormungandr',
                 name: 'Emerald Jormungandr',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'deserteagleHypnotic',
                 name: 'Hypnotic',
                 img: '',
-                rarity: 'Classified'
+                rarity: 'Classified',
+                patternDetailsUrl:''
             },
 
         ]
@@ -144,7 +160,8 @@ const patternData = [
                 id: 'dualberettasMoonInLibra',
                 name: 'Moon In Libra',
                 img: '',
-                rarity: 'Consumer Grade'
+                rarity: 'Consumer Grade',
+                patternDetailsUrl:''
             },
 
         ]
@@ -158,13 +175,15 @@ const patternData = [
                 id: 'famasNightBorre',
                 name: 'Night Borre',
                 img: '',
-                rarity: 'Consumer Grade'
+                rarity: 'Consumer Grade',
+                patternDetailsUrl:''
             },
             {
                 id: 'famasStyx',
                 name: 'Styx',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             }
 
         ]
@@ -178,25 +197,29 @@ const patternData = [
                 id: 'fivesevenKami',
                 name: 'Kami',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'fivesevenBerriesAndCherries',
                 name: 'Berries And Cherries',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'fivesevenCaseHardened',
                 name: 'Case Hardened',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'fivesevenNeonKimono',
                 name: 'Neon Kimono',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
 
         ]
@@ -210,7 +233,8 @@ const patternData = [
                 id: 'g3sg1OrangeKimono',
                 name: 'Orange Kimono',
                 img: '',
-                rarity: 'Consumer Grade'
+                rarity: 'Consumer Grade',
+                patternDetailsUrl:''
             },
 
         ]
@@ -224,19 +248,22 @@ const patternData = [
                 id: 'galilarKami',
                 name: 'Kami',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'galilarAmberFade',
                 name: 'Amber Fade',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'galilarSandstorm',
                 name: 'Sandstorm',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             }
 
         ]
@@ -250,31 +277,36 @@ const patternData = [
                 id: 'glock18DragonTattoo',
                 name: 'Dragon Tattoo',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'glock18Fade',
                 name: 'Fade',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'glock18GammaDoppler',
                 name: 'Gamma Doppler',
                 img: '',
-                rarity: 'Covert'
+                rarity: 'Covert',
+                patternDetailsUrl:''
             },
             {
                 id: 'glock18Moonrise',
                 name: 'Moonrise',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'glock18Grinder',
                 name: 'Grinder',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             }
         ]
     },
@@ -287,13 +319,15 @@ const patternData = [
                 id: 'm249EmeraldPoisonDart',
                 name: 'Emerald Poison Dart',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'm249ShippingForecast',
                 name: 'Shipping Forecast',
                 img: '',
-                rarity: 'Industrial Grade'
+                rarity: 'Industrial Grade',
+                patternDetailsUrl:''
             }
 
         ]
@@ -307,19 +341,22 @@ const patternData = [
                 id: 'm4a4Daybreak',
                 name: 'Daybreak',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'm4a4ModernHunter',
                 name: 'Modern Hunter',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'm4a4Zirka',
                 name: 'Zirka',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
 
         ]
@@ -333,13 +370,15 @@ const patternData = [
                 id: 'm4a1sFizzyPOP',
                 name: 'Fizzy POP',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'm4a1sIcarusFell',
                 name: 'Icarus Fell',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             }
 
         ]
@@ -353,31 +392,36 @@ const patternData = [
                 id: 'mac10CopperBorre',
                 name: 'Copper Borre',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'mac10LastDive	',
                 name: 'Last Dive',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'mac10AmberFade',
                 name: 'Amber Fade',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'mac10Fade',
                 name: 'Fade',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'mac10CaseHardened',
                 name: 'Case Hardened',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             }
 
         ]
@@ -391,13 +435,15 @@ const patternData = [
                 id: 'mag7Sonar',
                 name: 'Sonar',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'mag7Memento',
                 name: 'Memento',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
 
         ]
@@ -411,7 +457,8 @@ const patternData = [
                 id: 'mp5sdLabRats',
                 name: 'Lab Rats',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
 
         ]
@@ -425,7 +472,8 @@ const patternData = [
                 id: 'mp7Fade',
                 name: 'Fade',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
 
         ]
@@ -439,7 +487,8 @@ const patternData = [
                 id: 'mp9Hypnotic',
                 name: 'Hypnotic',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
 
         ]
@@ -453,25 +502,29 @@ const patternData = [
                 id: 'novaBlazeOrange',
                 name: 'Blaze Orange',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'novaModernHunter',
                 name: 'Modern Hunter',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'novaMoonInLibra',
                 name: 'Moon In Libra',
                 img: '',
-                rarity: 'Consumer Grade'
+                rarity: 'Consumer Grade',
+                patternDetailsUrl:''
             },
             {
                 id: 'novaTempest',
                 name: 'Tempest',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             }
 
         ]
@@ -485,25 +538,29 @@ const patternData = [
                 id: 'ppbizonBlueStreak',
                 name: 'Blue Streak',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'ppbizonModernHunter',
                 name: 'Modern Hunter',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'ppbizonJungleSlipstream',
                 name: 'Jungle Slipstream',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'ppbizonWaterSigil',
                 name: 'Water Sigil',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             }
 
         ]
@@ -517,25 +574,29 @@ const patternData = [
                 id: 'p2000AcidEtched',
                 name: 'Acid Etched',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
             {
                 id: 'p2000Dispatch',
                 name: 'Dispatch',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'p2000Oceanic',
                 name: 'Oceanic',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'p2000AmberFade',
                 name: 'Amber Fade',
                 img: '',
-                rarity: 'Restricted'
+                rarity: 'Restricted',
+                patternDetailsUrl:''
             },
 
         ]
@@ -549,7 +610,8 @@ const patternData = [
                 id: 'p250BengalTiger',
                 name: 'Bengal Tiger',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'p250Drought',
@@ -561,25 +623,29 @@ const patternData = [
                 id: 'p250ModernHunter',
                 name: 'Modern Hunter',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'p250Ripple',
                 name: 'Ripple',
                 img: '',
-                rarity: 'Mil-Spec'
+                rarity: 'Mil-Spec',
+                patternDetailsUrl:''
             },
             {
                 id: 'p250CrimsonKimono',
                 name: 'Crimson Kimono',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'p250MintKimono',
                 name: 'Mint Kimono',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             }
 
         ]
@@ -593,25 +659,29 @@ const patternData = [
                 id: 'p90AstralJormungandr',
                 name: 'Astral Jormungandr',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'p90GlacierMesh',
                 name: 'Glacier Mesh',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'p90TigerPit',
                 name: 'Tiger Pit',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'p90Virus',
                 name: 'Virus',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             }
 
         ]
@@ -625,13 +695,15 @@ const patternData = [
                 id: 'r8revolverAmberFade',
                 name: 'Amber Fade',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'r8revolverFade',
                 name: 'Fade',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             }
 
         ]
@@ -645,19 +717,22 @@ const patternData = [
                 id: 'sawedoffBambooShadow',
                 name: 'Bamboo Shadow',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'sawedoffAmberFade',
                 name: 'Amber Fade',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'sawedoffBrakeLight',
                 name: 'Brake Light',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
 
         ]
@@ -671,7 +746,8 @@ const patternData = [
                 id: 'scar20JungleSlipstream	',
                 name: 'Jungle Slipstream',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
 
         ]
@@ -685,19 +761,22 @@ const patternData = [
                 id: 'sg553Aloha',
                 name: 'Aloha',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'sg553Hypnotic',
                 name: 'Hypnotic',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'sg553LushRuins',
                 name: 'Lush Ruins',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             }
 
         ]
@@ -711,19 +790,22 @@ const patternData = [
                 id: 'ssg08Abyss',
                 name: 'Abyss',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'ssg08SpringTwilly',
                 name: 'Spring Twilly',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'ssg08AcidFade',
                 name: 'Acid Fade',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             }
 
         ]
@@ -737,13 +819,15 @@ const patternData = [
                 id: 'tec9IceCap',
                 name: 'IceCap',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'tec9Sandstorm',
                 name: 'Sandstorm',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
 
         ]
@@ -757,31 +841,36 @@ const patternData = [
                 id: 'ump45BonePile',
                 name: 'Bone Pile',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'ump45Minotaurs Labyrinth',
                 name: 'Minotaurs Labyrinth',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'ump45Moonrise',
                 name: 'Moonrise',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'ump45Oscillator',
                 name: 'Oscillator',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'ump45Blaze',
                 name: 'Blaze',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
 
         ]
@@ -795,37 +884,43 @@ const patternData = [
                 id: 'xm1014BlazeOrange',
                 name: 'Blaze Orange',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'xm1014FrostBorre',
                 name: 'Frost Borre',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'xm1014Quicksilver',
                 name: 'Quicksilver',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'xm1014XOXO',
                 name: 'XOXO',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'xm1014Ziggy',
                 name: 'Ziggy',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
             {
                 id: 'xm1014Seasons',
                 name: 'Seasons',
                 img: '',
-                rarity: ''
+                rarity: '',
+                patternDetailsUrl:''
             },
 
         ]

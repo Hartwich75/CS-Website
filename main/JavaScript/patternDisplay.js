@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const patternContainer = document.querySelector(".defaultPatternImages");
     const patternSkinsContainer = document.querySelector(".defaultPatternImagesSkins");
-    
+
+    // Step 1: Display weapon patterns (like AWP, AK-47, etc.)
     patternData.forEach(pattern => {
-        // Create weapon element
+        // Create weapon element for each pattern
         const patternElement = document.createElement("div");
         patternElement.className = "patternimage";
         patternElement.id = pattern.id;
@@ -19,21 +20,25 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
         patternContainer.appendChild(patternElement);
     });
-    
+
+    // Step 2: Show the skins for the selected weapon (like Boom, Fade for AWP)
     window.showPatternSkins = function(patternId) {
-        // Hide all pattern images
+        // Hide the weapon patterns and clear the skin container
         patternContainer.style.display = 'none';
-        
-        // Show only the skins for the selected pattern
         patternSkinsContainer.innerHTML = ''; // Clear previous skins
+        
+        // Find the selected pattern by ID
         const selectedPattern = patternData.find(pattern => pattern.id === patternId);
+
+        // Check if the selected pattern has skins
         if (selectedPattern && selectedPattern.skins) {
+            // Loop through the skins and display them
             selectedPattern.skins.forEach(skin => {
                 const skinElement = document.createElement("div");
                 skinElement.className = "patternimage";
                 skinElement.id = skin.id;
                 skinElement.innerHTML = `
-                    <a onclick="showPatternSkins('${skin.id}')">
+                    <a onclick="showPatternDetails('${skin.id}', '${skin.patternDetailsUrl}')">
                         <img src="${skin.img}" width="270px" height="200px" alt="This is a picture of the ${selectedPattern.name} ${skin.name}" title="${selectedPattern.name} ${skin.name}">
                         <div class="rarity-box">${skin.rarity}</div>
                     </a>
@@ -43,7 +48,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 `;
                 patternSkinsContainer.appendChild(skinElement);
             });
+
+            // Display the skins container
             patternSkinsContainer.style.display = 'flex';
         }
     };
-    });
+
+    // Step 3: Redirect to the pattern details page for the selected skin
+    window.showPatternDetails = function(skinId, patternDetailsUrl) {
+        if (patternDetailsUrl) {
+            window.location.href = patternDetailsUrl; // Redirect to the pattern details page
+        } else {
+            alert("Pattern details not available for this skin.");
+        }
+    };
+});

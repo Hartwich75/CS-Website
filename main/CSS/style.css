@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+header {
+    position: relative;
+    z-index: 10; 
+}
+
 body{
     min-height: 100vh;
     background-color: #232728;
-    
     font-family: "consolas", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 table{
@@ -187,6 +193,38 @@ nav a:hover{
     display: block;
 }
 
+.pageContent{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 100vh;            
+    text-align: center;     
+    flex-direction: column;
+    padding-top: 900px;
+}
+
+.pageContent h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.pageContent p {
+    font-size: 20px;
+    max-width: 800px;
+    line-height: 1.6;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.patternImage{
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+    margin-top: 20px;
+}
 
 @media(max-width: 800px){
     .hideOnMobile{
@@ -194,13 +232,8 @@ nav a:hover{
     }
 }
 
-
 @media(max-width: 400px){
     .sidebar{
         width: 100%;
     }
-}
-
-.steamLogin{
-    background-color: green;
 }
