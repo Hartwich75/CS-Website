@@ -102,7 +102,7 @@ const patternData = [
                 name: 'Fade',
                 img: '',
                 rarity: 'Covert',
-                patternDetailsUrl:''
+                patternDetailsUrl:'/main/HTML/patterns/awpFade.html'
             }
 
         ]
