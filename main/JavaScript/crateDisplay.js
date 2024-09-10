@@ -1,20 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
     const crateContainer = document.querySelector(".defaultCrateImages");
-
-    // Generate HTML for cases
-    crateData.forEach(crateItem => {
+    const crateSkinsContainer = document.querySelector(".defaultCrateImagesSkins");
+   
+    crateData.forEach(crate => {
+        // Create crate element
         const crateElement = document.createElement("div");
         crateElement.className = "crateimage";
-        crateElement.id = crateItem.id;
+        crateElement.id = crate.id;
         crateElement.innerHTML = `
-            <a>
-                <img src="${crateItem.img}" width="270px" height="200px" alt="This is a picture of the ${crateItem.name}" title="${caseItem.name}">
-            </a>
-            <hr class="crateimagehr">
-            <br>
-            <p>${crateItem.name}</p>
+            <divclass="defaultCrateImages" onclick="hideDefaultCrateImages()">
+                <a onclick="showCrateSkins('${crate.id}')">
+                    <img src="${crate.img}" width="270px" height="200px" alt="This is a picture of the ${crate.name}" title="${crate.name}">
+                </a>
+                <hr class="crateimagehr">
+                <br>
+                <p>${crate.name}</p>
+            </divclass=>
         `;
-        crateContainer.appendChild(crateElement);
+            crateContainer.appendChild(crateElement);
     });
 
 window.showCrateSkins = function(crateId) {
@@ -45,6 +48,33 @@ window.showCrateSkins = function(crateId) {
         });
 
         // Display the skins container
+        crateSkinsContainer.style.display = 'flex';
+    }
+};
+
+window.showCrateSkins = function(crateId) {
+    // Hide all collection images
+   crateContainer.style.display = 'none';
+    
+    // Show only the skins for the selected collection
+    crateSkinsContainer.innerHTML = ''; // Clear previous skins
+    const selectedCrate = crateData.find(crate =>crate.id === crateId);
+    if (selectedCrate && selectedCrate.skins) {
+        selectedCrate.skins.forEach(skin => {
+            const skinElement = document.createElement("div");
+            skinElement.className = "crateimage";
+            skinElement.id = skin.id;
+            skinElement.innerHTML = `
+                <a onclick="showCrateSkins('${skin.id}')">
+                    <img src="${skin.img}" width="270px" height="200px" alt="This is a picture of the ${selectedCrate.name} ${skin.name}" title="${selectedCrate.name} ${skin.name}">
+                    <div class="rarity-box">${skin.rarity}</div>
+                </a>
+                <hr class="crateimagehr">
+                <br>
+                <p>${skin.name}</p>
+            `;
+            crateSkinsContainer.appendChild(skinElement);
+        });
         crateSkinsContainer.style.display = 'flex';
     }
 };

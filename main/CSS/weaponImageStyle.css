@@ -35,7 +35,7 @@
     flex-wrap: wrap;
 }
 
-.defaultWeaponImages, .defaultWeaponImagesSkins, .defaultCrateImages, .defaultCollectionImages, .defaultCollectionImagesSkins, .defaultPatternImages, .defaultPatternImagesSkins{
+.defaultWeaponImages, .defaultWeaponImagesSkins, .defaultCrateImages, .defaultCrateImagesSkins, .defaultCollectionImages, .defaultCollectionImagesSkins, .defaultPatternImages, .defaultPatternImagesSkins{
     width: 60%;
     display: flex;
     flex-direction: row;

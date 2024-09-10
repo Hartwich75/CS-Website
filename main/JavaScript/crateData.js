@@ -3,6 +3,14 @@ const crateData = [
         id: 'Kilowatt',
         name: 'Kilowatt',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png',
+        skins: [
+            {
+                id: '',
+                name: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/',
+                rarity: ''
+            },
+        ]
     },
     {
         id: 'Revolution',
