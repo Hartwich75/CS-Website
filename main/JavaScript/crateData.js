@@ -391,6 +391,195 @@ const crateData = [
         id: 'Recoil',
         name: 'Recoil',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_31_png.png',
+        skins: [
+            {
+                "id": "skin-659944",
+                "name": "FAMAS | Meow 36",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1146",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_gs_famas_corp_meow_light_png.png"
+              },
+              {
+                "id": "skin-856556",
+                "name": "Galil AR | Destroyer",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1147",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_cu_galil_destroyer_light_png.png"
+              },
+              {
+                "id": "skin-1053172",
+                "name": "M4A4 | Poly Mag",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1149",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_elite_tactical_light_png.png"
+              },
+              {
+                "id": "skin-1118712",
+                "name": "MAC-10 | Monkeyflage",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1150",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_cu_mac10_monkeyflage_light_png.png"
+              },
+              {
+                "id": "skin-1839616",
+                "name": "Negev | Drop Me",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1152",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_negev_cu_negev_clear_sky_light_png.png"
+              },
+              {
+                "id": "skin-1577492",
+                "name": "UMP-45 | Roadblock",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1157",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_gs_ump_roadblock_light_png.png"
+              },
+              {
+                "id": "skin-266776",
+                "name": "Glock-18 | Winterized",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1158",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_gs_glock_elite_camo_light_png.png"
+              },
+              {
+                "id": "skin-4198884",
+                "name": "R8 Revolver | Crazy 8",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1145",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_gs_revolver_purple_elite_light_png.png"
+              },
+              {
+                "id": "skin-922096",
+                "name": "M249 | Downtown",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1148",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m249_cu_m249_downvote_light_png.png"
+              },
+              {
+                "id": "skin-2560508",
+                "name": "SG 553 | Dragon Tech",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1151",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sg556_cu_sg553_cyber_dragon_light_png.png"
+              },
+              {
+                "id": "skin-1249800",
+                "name": "P90 | Vent Rush",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1154",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_gs_p90_tangled_light_png.png"
+              },
+              {
+                "id": "skin-135696",
+                "name": "Dual Berettas | Flora Carnivora",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1156",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_cu_dual_elites_evil_flora_light_png.png"
+              },
+              {
+                "id": "skin-463324",
+                "name": "AK-47 | Ice Coaled",
+                "rarity": {
+                  "id": "rarity_legendary_weapon",
+                  "name": "Classified",
+                  "color": "#d32ce6"
+                },
+                "paint_index": "1143",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_cogthings_light_png.png"
+              },
+              {
+                "id": "skin-2363908",
+                "name": "P250 | Visions",
+                "rarity": {
+                  "id": "rarity_legendary_weapon",
+                  "name": "Classified",
+                  "color": "#d32ce6"
+                },
+                "paint_index": "1153",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_gs_p250_visions_light_png.png"
+              },
+              {
+                "id": "skin-1905164",
+                "name": "Sawed-Off | Kiss♥Love",
+                "rarity": {
+                  "id": "rarity_legendary_weapon",
+                  "name": "Classified",
+                  "color": "#d32ce6"
+                },
+                "paint_index": "1155",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_kisslove_light_png.png"
+              },
+              {
+                "id": "skin-4002264",
+                "name": "USP-S | Printstream",
+                "rarity": {
+                  "id": "rarity_ancient_weapon",
+                  "name": "Covert",
+                  "color": "#eb4b4b"
+                },
+                "paint_index": "1142",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_printstream_light_png.png"
+              },
+              {
+                "id": "skin-594400",
+                "name": "AWP | Chromatic Aberration",
+                "rarity": {
+                  "id": "rarity_ancient_weapon",
+                  "name": "Covert",
+                  "color": "#eb4b4b"
+                },
+                "paint_index": "1144",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_cu_awp_chroma_pink_light_png.png"
+              }
+        ]
     },
     {
         id: 'DreamsNightmares',
