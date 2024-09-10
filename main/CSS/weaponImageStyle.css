@@ -1,6 +1,6 @@
 .weaponimage, .crateimage, .collectionimage, .patternimage{
-    width: 300px;
-    height: 325px;
+    width: 320px;
+    height: 370px;
     border: 3px solid;
     border-color: #313638;
     border-radius: 10px;
@@ -15,7 +15,8 @@
     position: relative;
     top: -30px;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    word-wrap: break-word;
 }
 
 .weaponimagehr, .crateimagehr, .collectionimagehr, .patternimagehr{
