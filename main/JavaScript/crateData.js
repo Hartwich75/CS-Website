@@ -586,8 +586,193 @@ const crateData = [
         name: 'Dreams & Nightmares',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png',
         skins: [
-
-
+            {
+                "id": "skin-201120",
+                "name": "Five-SeveN | Scrawl",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1128",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_cu_fiveseven_alpha_omega_light_png.png"
+              },
+              {
+                "id": "skin-1118636",
+                "name": "MAC-10 | Ensnared",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1131",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_cu_mac10_pixie_light_png.png"
+              },
+              {
+                "id": "skin-1774000",
+                "name": "MAG-7 | Foresight",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1132",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_cu_mag7_predictor_light_png.png"
+              },
+              {
+                "id": "skin-1511876",
+                "name": "MP5-SD | Necro Jr.",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1137",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_gs_mp5_kid_necronomicon_light_png.png"
+              },
+              {
+                "id": "skin-2101704",
+                "name": "P2000 | Lifted Spirits",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1138",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_hkp2000_cu_p2k_flying_dream_light_png.png"
+              },
+              {
+                "id": "skin-2494924",
+                "name": "SCAR-20 | Poultrygeist",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1139",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_sp_scar_chickenfight_light_png.png"
+              },
+              {
+                "id": "skin-1905104",
+                "name": "Sawed-Off | Spirit Board",
+                "rarity": {
+                  "id": "rarity_rare_weapon",
+                  "name": "Mil-Spec Grade",
+                  "color": "#4b69ff"
+                },
+                "paint_index": "1140",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_ouija_light_png.png"
+              },
+              {
+                "id": "skin-1708436",
+                "name": "PP-Bizon | Space Cat",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1125",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_cu_bizon_spacecat_light_png.png"
+              },
+              {
+                "id": "skin-725412",
+                "name": "G3SG1 | Dream Glade",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1129",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_g3sg1_cu_g3sg1_glade_light_png.png"
+              },
+              {
+                "id": "skin-3936680",
+                "name": "M4A1-S | Night Terror",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1130",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_insomnia_light_png.png"
+              },
+              {
+                "id": "skin-1642940",
+                "name": "XM1014 | Zombie Offensive",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1135",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_am_xm_zombie_offensive_light_png.png"
+              },
+              {
+                "id": "skin-4002240",
+                "name": "USP-S | Ticket to Hell",
+                "rarity": {
+                  "id": "rarity_mythical_weapon",
+                  "name": "Restricted",
+                  "color": "#8847ff"
+                },
+                "paint_index": "1136",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_to_hell_light_png.png"
+              },
+              {
+                "id": "skin-135576",
+                "name": "Dual Berettas | Melondrama",
+                "rarity": {
+                  "id": "rarity_legendary_weapon",
+                  "name": "Classified",
+                  "color": "#d32ce6"
+                },
+                "paint_index": "1126",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_cu_elites_beware_light_png.png"
+              },
+              {
+                "id": "skin-659868",
+                "name": "FAMAS | Rapid Eye Movement",
+                "rarity": {
+                  "id": "rarity_legendary_weapon",
+                  "name": "Classified",
+                  "color": "#d32ce6"
+                },
+                "paint_index": "1127",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_gs_famas_rapid_eyes_light_png.png"
+              },
+              {
+                "id": "skin-2167220",
+                "name": "MP7 | Abyssal Apparition",
+                "rarity": {
+                  "id": "rarity_legendary_weapon",
+                  "name": "Classified",
+                  "color": "#d32ce6"
+                },
+                "paint_index": "1133",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_cu_mp7_fear_light_png.png"
+              },
+              {
+                "id": "skin-463316",
+                "name": "AK-47 | Nightwish",
+                "rarity": {
+                  "id": "rarity_ancient_weapon",
+                  "name": "Covert",
+                  "color": "#eb4b4b"
+                },
+                "paint_index": "1141",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak47_nightwish_light_png.png"
+              },
+              {
+                "id": "skin-2232760",
+                "name": "MP9 | Starlight Protector",
+                "rarity": {
+                  "id": "rarity_ancient_weapon",
+                  "name": "Covert",
+                  "color": "#eb4b4b"
+                },
+                "paint_index": "1134",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_gs_mp9_starlight_light_png.png"
+              }
         ]
     },
     {
