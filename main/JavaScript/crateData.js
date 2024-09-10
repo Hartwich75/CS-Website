@@ -585,186 +585,334 @@ const crateData = [
         id: 'DreamsNightmares',
         name: 'Dreams & Nightmares',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png',
+        skins: [
+
+
+        ]
     },
     {
         id: 'OperationRiptide',
         name: 'Operation Riptide',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_29_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Snakebite',
         name: 'Snakebite',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_28_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'OperationBrokenFang',
         name: 'Operation Broken Fang',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_27_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Fracture',
         name: 'Fracture',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_26_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Prisma2',
         name: 'Prisma 2',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_25_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'CS20',
         name: 'CS20',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_24_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'ShatteredWeb',
         name: 'Shattered Web',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_23_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Prisma',
         name: 'Prisma',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_22_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'DangerZone',
         name: 'Danger Zone',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_21_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Horizon',
         name: 'Horizon',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_20_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Clutch',
         name: 'Clutch',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_19_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Spectrum2',
         name: 'Spectrum 2',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_18_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'OperationHydra ',
         name: 'Operation Hydra',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_17_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Spectrum',
         name: 'Spectrum',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_16_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Glove',
         name: 'Glove',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_15_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Gamma2',
         name: 'Gamma 2',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_gamma_2_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Gamma',
         name: 'Gamma',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_13_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Chroma3',
         name: 'Chroma 3',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_12_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'OperationWildfire',
         name: 'Operation Wildfire',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_11_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Revolver',
         name: 'Revolver',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_10_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Shadow',
         name: 'Shadow',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_9_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Falchion',
         name: 'Falchion',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_8_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Chroma2',
         name: 'Chroma 2',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_7_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'Chroma',
         name: 'Chroma',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_6_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'OperationVanguardWeapon',
         name: 'Operation Vanguard Weapon',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_5_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'eSports2014Summer',
         name: 'eSports 2014 Summer',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2014_summer_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'OperationBreakoutWeapon',
         name: 'Operation Breakout Weapon',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'HuntsmanWeapon',
         name: 'Huntsman Weapon',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'OperationPhoenixWeapon',
         name: 'Operation Phoenix Weapon',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'CSGOWeaponCase3',
         name: 'CS:GO Weapon Case 3',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_3_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'WinterOffensiveWeapon',
         name: 'Winter Offensive Weapon',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'eSports2013Winter ',
         name: 'eSports 2013 Winter',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_14_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'CSGOWeaponCase2',
         name: 'CS:GO Weapon Case 2',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_2_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'OperationBravo',
         name: 'Operation Bravo',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_operation_ii_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'eSports2013',
         name: 'eSports 2013',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png',
+        skins: [
+
+            
+        ]
     },
     {
         id: 'CSGOWeaponCase',
         name: 'CS:GO Weapon Case',
         img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png',
+        skins: [
+
+            
+        ]
     }   
 
 ];
