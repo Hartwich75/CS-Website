@@ -1,0 +1,30 @@
+<script>
+const crates_apiUrl = "https://bymykel.github.io/CSGO-API/api/en/agents.json";
+
+fetch(crates_apiUrl)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log("Fetched data:", data);
+    
+    // Create a JSON file download in the browser
+    const dataStr = JSON.stringify(data, null, 2); // Stringify the data with formatting
+    const blob = new Blob([dataStr], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    
+    // Create an anchor element to trigger the download
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "agentsData.json"; // The name of the downloaded file
+    document.body.appendChild(a);
+    a.click(); // Trigger the download
+    document.body.removeChild(a); // Remove the anchor element
+  })
+  .catch(error => {
+    console.error("Error fetching data:", error);
+  });
+  </script>

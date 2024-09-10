@@ -65,7 +65,7 @@ const patternData = [
             {
                 id: 'awpBoom',
                 name: 'Boom',
-                img: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_hy_blam_simple_light_png.png',
                 rarity: 'Classified',
                 patternDetailsUrl: '/main/HTML/patterns/awpBoom.html'
             },
@@ -100,11 +100,10 @@ const patternData = [
             {
                 id: 'awpFade',
                 name: 'Fade',
-                img: '',
+                img: 'https://raw.githubusercontent.com/mads369j/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_aa_awp_fade_light_png.png',
                 rarity: 'Covert',
-                patternDetailsUrl:'/main/HTML/patterns/awpFade.html'
+                patternDetailsUrl:'/main/HTML/patterns/AWPFade.html'
             }
-
         ]
     },
     {
