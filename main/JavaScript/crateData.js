@@ -1,4 +1,4 @@
-const caseData = [
+const crateData = [
     {
         id: 'Kilowatt',
         name: 'Kilowatt',

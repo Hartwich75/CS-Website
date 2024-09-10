@@ -5,7 +5,7 @@ function showDefaultWeaponImages(id){
     } 
 }
 
-function showDefaultCaseImages(id){
+function showDefaultCrateImages(id){
     const defaultCaseImages = document.querySelector(".defaultCaseImages" +  id);
     if (defaultCaseImages) {
         defaultCaseImages.style.display = "flex";
@@ -31,7 +31,7 @@ function hideDefaultWeaponImages(){
     defaultWeaponImages.style.display = "none";
 }
 
-function hideDefaultCaseImages(){
+function hideDefaultCrateImages(){
     const defaultCaseImages = document.querySelector(".defaultCaseImages");
     defaultCaseImages.style.display = "none";
 }
