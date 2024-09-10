@@ -1,5 +1,5 @@
 <script>
-const crates_apiUrl = "https://bymykel.github.io/CSGO-API/api/en/collections.json";
+const crates_apiUrl = "https://bymykel.github.io/CSGO-API/api/en/keys.json";
 
 fetch(crates_apiUrl)
   .then(response => {
@@ -19,7 +19,7 @@ fetch(crates_apiUrl)
     // Create an anchor element to trigger the download
     const a = document.createElement("a");
     a.href = url;
-    a.download = "collectionsData.json"; // The name of the downloaded file
+    a.download = "keysData.json"; // The name of the downloaded file
     document.body.appendChild(a);
     a.click(); // Trigger the download
     document.body.removeChild(a); // Remove the anchor element
