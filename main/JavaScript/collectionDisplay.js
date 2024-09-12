@@ -29,13 +29,18 @@ document.addEventListener("DOMContentLoaded", function() {
         const selectedCollection = collectionData.find(collection =>collection.id === collectionId);
         if (selectedCollection && selectedCollection.skins) {
             selectedCollection.skins.forEach(skin => {
+
                 const skinElement = document.createElement("div");
                 skinElement.className = "weaponimage";
                 skinElement.id = skin.id;
+                
+                const rarityName = skin.rarity.name;
+                const rarityColor = skin.rarity.color;
+                
                 skinElement.innerHTML = `
                     <a onclick="showCollectionSkins('${skin.id}')">
-                        <img src="${skin.img}" width="270px" height="200px" alt="This is a picture of the ${selectedCollection.name} ${skin.name}" title="${selectedCollection.name} ${skin.name}">
-                        <div class="rarity-box">${skin.rarity}</div>
+                        <img src="${skin.image}" width="270px" height="200px" alt="This is a picture of the ${selectedCollection.name} ${skin.name}" title="${selectedCollection.name} ${skin.name}">
+                        <div class="rarity-box" style="background-color: ${rarityColor};">${rarityName}</div>
                     </a>
                     <hr class="weaponimagehr">
                     <br>
